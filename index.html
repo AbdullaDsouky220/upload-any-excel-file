@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Node js upload/Import excel file to MySQL database </title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://cdn.tailwindcss.com"></script>
+
+    </head>
+    <body class="shadow-lg py-16 m-auto max-w-[450px] ">
+      <div class="p-8 rounded">
+        <h1 class="text-2xl text-center">Node js upload Excel file to MySQL database </h1>
+      <form action="/uploadfile" class="flex flex-col gap-4 items-center my-8" enctype="multipart/form-data" method="post">
+        <input type="file"  class='bg-blue-200 p-4 rounded py-4 hover:bg-white hover:border-blue-400 transition cursor pointer' name="uploadfile" accept='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel' >
+        <input  type="submit"  class='border bg-blue-300 cursor-pointer p-4 rounded hover:bg-white hover:border-blue-400 text-center' value="Upload Excel">
+      </form>  
+      
+
+    </body>
+</html>
